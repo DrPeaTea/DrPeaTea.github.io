@@ -1,6 +1,6 @@
 import "./main.css";
-import BackgroundArt from "/Images/bg-intro-desktop.svg";
-import PhoneImg from "/Images/image-mockups.png";
+import BackgroundArt from "/images/bg-intro-desktop.svg";
+import PhoneImg from "/images/image-mockups.png";
 import RequestInvite from "./request-invite-button";
 
 export default function main() {
