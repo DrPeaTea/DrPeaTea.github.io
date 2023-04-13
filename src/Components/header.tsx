@@ -4,9 +4,9 @@ import "./header.css";
 
 export default function header() {
   function handleMenu() {
-    let activeButton = document.querySelector(".hamburger");
-    let deactivateButton = document.querySelector(".close");
-    let navigation = document.querySelector(".top-navigation");
+    let activeButton = document.querySelector(".hamburger") as HTMLElement;
+    let deactivateButton = document.querySelector(".close") as HTMLElement;
+    let navigation = document.querySelector(".top-navigation") as HTMLElement;
 
     navigation.classList.toggle("active");
     activeButton.classList.toggle("hidden");
