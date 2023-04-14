@@ -8,7 +8,7 @@
 }
 
 .sales-section-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: left;
 }
 
@@ -23,26 +23,29 @@
   color: #95969b;
   padding-bottom: 40px;
   text-align: left;
+  max-width: 45%;
 }
 
 @media screen and (max-width: 767px) {
   .sales-subtitle {
     text-align: center;
+    max-width: none;
   }
 }
 
 .sales-card {
   width: 300px;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding-left: 2.5%;
-  padding-right: 3%;
 }
 
 .sales-list {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+  overflow: scroll;
 }
 
 @media screen and (max-width: 767px) {
@@ -68,6 +71,7 @@
   display: flex;
   justify-content: flex-start;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
@@ -77,12 +81,14 @@
 }
 
 .sales-text {
-  font-size: 1.1rem;
+  font-size: 18px;
   color: #95969b;
   display: flex;
   justify-content: flex-start;
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.6rem;
+  max-width: 300px;
+  width: 90%;
 }
 
 @media screen and (max-width: 767px) {

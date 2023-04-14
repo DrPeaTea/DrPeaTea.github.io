@@ -5,7 +5,11 @@
   font-size: 1rem;
   border: none;
   color: white;
-  background-image: linear-gradient(to right, #31d165, #2dbad7);
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
   display: flex;
   justify-content: center;
   align-items: center;
