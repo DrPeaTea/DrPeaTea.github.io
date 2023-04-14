@@ -1,8 +1,8 @@
 import "./articles.css";
-import currency from "./images/image-currency.jpg";
-import resturant from "./images/image-restaurant.jpg";
-import plane from "./images/image-plane.jpg";
-import confetti from "./images/image-confetti.jpg";
+import currency from "/images/image-currency.jpg";
+import resturant from "/images/image-restaurant.jpg";
+import plane from "/images/image-plane.jpg";
+import confetti from "/images/image-confetti.jpg";
 
 export default function articles() {
   return (

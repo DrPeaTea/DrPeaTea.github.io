@@ -3,13 +3,17 @@
   justify-content: space-between;
   align-items: center;
   max-width: 100vw;
-  padding: 0 10% 20px;
+  padding: 20px 10%;
+  background-color: white;
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    justify-content: space-between;
-    padding: 0 5% 20px;
+    position: fixed;
+    top: 0;
+    width: 90vw;
+    padding: 30px 5% 30px;
+    z-index: 100;
   }
 
   .header-button {
@@ -18,7 +22,7 @@
 
   .top-navigation {
     display: none;
-    top: 20%;
+    top: 300px;
   }
 
   .close {
@@ -38,4 +42,10 @@
 
 .hidden {
   display: none;
+}
+
+button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }
